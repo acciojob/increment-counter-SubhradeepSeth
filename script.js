@@ -4,5 +4,5 @@ let r=document.getElementById();
 function increment() {
 	alert(c);
 	c++;
-	document.getElementById("counter").innerHTML=c;
+	document.getElementById("counter").textContent=c;
 }
